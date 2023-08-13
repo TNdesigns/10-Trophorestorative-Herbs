@@ -1,0 +1,57 @@
+.item:hover {
+    transform: translateY(-10px);
+}
+ol li {
+    vertical-align: middle;
+    display: table-cell;
+}
+body {
+    background-color:purple;
+}
+footer {
+    background: blue;
+}
+ol {
+    display: inline-block;
+    list-style-type: none;
+    color: Blue;
+}
+.title{
+    font-family:cochin;
+    border-radius:10px; 
+    border-color:dodgerblue; 
+    border-width:10px; 
+    border-style:solid; 
+    color:black;
+    position:relative;
+    
+}
+.titledesc{
+    border-radius:10px; 
+    border-color:green; 
+    border-width:10px; 
+    border-style:solid; 
+    color:black;
+}
+.b1, .b2, .b3{
+    font-family:georgia; 
+    background-color:chartreuse; 
+    border-radius:10px 50px;
+}
+.t2{
+    font-family:georgia; 
+    color:black; 
+    text-align:center;
+}
+.h2o{
+    color: black; 
+    font-family:cochin;
+}
+
+
+
+@media screen and (max-width:420px){
+        .title{
+           
+        }
+}
