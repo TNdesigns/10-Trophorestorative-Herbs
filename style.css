@@ -47,11 +47,48 @@ ol {
     color: black; 
     font-family:cochin;
 }
-
-
-
 @media screen and (max-width:420px){
         .title{
+           position:relative;
+           top:-10px;
+           font-size:25px;
            
+        }
+        .titledesc{
+            position:relative;
+            top:-20px;
+        }
+        .b1, .b2, .b3{
+            position:relative;
+            top:-35px;
+            left:15%;
+        }
+        .t2{
+            position:relative;
+            top:-50px;
+        }
+        .h2o{
+            position:relative;
+            top:-120px;
+            left:7.1%;
+            
+        }
+        .item{
+            display:flex;
+            flex-direction:column;
+            margin-right:0px;
+            
+            
+        }
+        .images{
+            margin-top:-40%;
+            
+        }
+
+}
+@media screen and (max-height:920px){
+        .title{
+            position:relative;
+
         }
 }
