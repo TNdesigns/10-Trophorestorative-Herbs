@@ -84,7 +84,10 @@ ol {
             margin-top:-40%;
             
         }
-
+        html, body{
+            overflow-x:hidden;
+            position:relative;
+        }
 }
 @media screen and (max-height:920px){
         .title{
